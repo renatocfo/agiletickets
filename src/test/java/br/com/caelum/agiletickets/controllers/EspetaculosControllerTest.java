@@ -109,4 +109,10 @@ public class EspetaculosControllerTest {
 
 		assertThat(sessao.getIngressosDisponiveis(), is(2));
 	}
+	
+	@Test
+	public void deveCriarSessaoQuandoFimMaiorQueInicio() throws Exception {
+		
+		
+	}
 }
